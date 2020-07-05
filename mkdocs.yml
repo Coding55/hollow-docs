@@ -1,0 +1,63 @@
+site_name: Hollow's website documentation
+
+nav:
+  - Home page: index.md
+  - Sobre:
+    - Informações globais: about/about.md
+    - Contribuir: about/contributing.md
+  - Deploy e produção:
+    - Como dar deploy no site: deployment/deploy.md
+    - Manuntenção do site: deployment/maintenance.md
+    - Servidor: deployment/server.md
+  - Admin:
+    - Para o admin: admin/admin.md
+    - Como usar o site admin: admin/how-to-use.md
+    - Papel do admin: admin/role.md
+  - Banco de dados:
+    - BDD: database/database.md
+    - PostgreSQL: database/postgres.md
+    - SQL: database/queries.md
+  - Django:
+    - O framework: django/django.md
+    - Python: django/python.md
+  - Desenvolvimento:
+    - Ferramentas de desenvolvimento: development/tools.md
+    - Branch dev do site: development/dev.md
+    - Executar o server em local: development/run-project-locally.md
+    - Como adicionar uma nova funcionalidade: development/adding-feature.md
+    - Testes: development/testing.md
+  - Heroku:
+    - O app hollow: heroku/app.md
+    - Dados: heroku/data.md
+    - Heroku: heroku/heroku.md
+    - Arquivos estáticos: heroku/static-files.md
+  - Contato:
+    - Nos contacte: contact/contact-us.md
+  - MKDOCS: mkdocs.md
+
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: yellow
+    accent: indigo
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+
+repo_name: CodeAndCoffee55/hollow-docs
+repo_url: https://github.com/CodeAndCoffee55/hollow-docs
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/CodeAndCoffee55
+    - icon: fontawesome/solid/users
+      link: http://www.codeandcoffee55.com/
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

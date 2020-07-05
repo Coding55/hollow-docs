@@ -1,0 +1,10 @@
+# Virtual environment
+/venv/
+/env
+
+# JetBrains files
+/.idea
+
+# Site html and other files
+/site
+
