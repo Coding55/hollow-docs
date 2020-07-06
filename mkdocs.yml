@@ -1,4 +1,4 @@
-site_name: Hollow's website documentation
+site_name: Hollow's documentation
 
 nav:
   - Home page: index.md
@@ -22,7 +22,7 @@ nav:
     - Python: django/python.md
   - Desenvolvimento:
     - Ferramentas de desenvolvimento: development/tools.md
-    - Branch dev do site: development/dev.md
+    - Workflow de dev: development/dev.md
     - Executar o server em local: development/run-project-locally.md
     - Como adicionar uma nova funcionalidade: development/adding-feature.md
     - Testes: development/testing.md
