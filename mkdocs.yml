@@ -22,6 +22,7 @@ nav:
     - Python: django/python.md
   - Desenvolvimento:
     - Ferramentas de desenvolvimento: development/tools.md
+    - Setup do dev env: development/env.md
     - Workflow de dev: development/dev.md
     - Executar o server em local: development/run-project-locally.md
     - Como adicionar uma nova funcionalidade: development/adding-feature.md
