@@ -28,7 +28,7 @@ nav:
     - Como adicionar uma nova funcionalidade: development/adding-feature.md
     - Testes: development/testing.md
   - Heroku:
-    - O app hollow: heroku/app.md
+    - O Aplicativo Hollow: heroku/app.md
     - Dados: heroku/data.md
     - Heroku: heroku/heroku.md
     - Arquivos estáticos: heroku/static-files.md
@@ -46,15 +46,15 @@ theme:
     text: Ubuntu
     code: Ubuntu Mono
 
-repo_name: CodeAndCoffee55/hollow-docs
-repo_url: https://github.com/CodeAndCoffee55/hollow-docs
+repo_name: coding55/hollow-docs
+repo_url: https://github.com/coding55/hollow-docs
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/CodeAndCoffee55
+      link: https://github.com/coding55
     - icon: fontawesome/solid/users
-      link: http://www.codeandcoffee55.com/
+      link: http://www.coding55.com/
 
 markdown_extensions:
   - admonition
