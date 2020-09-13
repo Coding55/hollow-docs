@@ -15,7 +15,7 @@
     
     
       
-        <title>Workflow de dev - Documentação hollow</title>
+        <title>Como dar deploy no site - Documentação hollow</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#branch-develop" class="md-skip">
+        <a href="#deploy" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -85,7 +85,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Workflow de dev
+              Como dar deploy no site
             
           </span>
         </div>
@@ -244,10 +244,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Deploy e produção
@@ -265,11 +267,70 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../deployment/deploy/" title="Como dar deploy no site" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Como dar deploy no site
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Como dar deploy no site" class="md-nav__link md-nav__link--active">
       Como dar deploy no site
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lista-de-verificacao-de-implantacao-do-django" class="md-nav__link">
+    Lista de verificação de implantação do Django
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacao-de-producao" class="md-nav__link">
+    Verificação de produção
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implantacao-com-heroku" class="md-nav__link">
+    Implantação com heroku
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparando-uma-base-de-codigo-para-a-implantacao-do-heroku" class="md-nav__link">
+    Preparando uma base de código para a implantação do Heroku
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -279,7 +340,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../deployment/maintenance/" title="Manuntenção do site" class="md-nav__link">
+    <a href="../maintenance/" title="Manuntenção do site" class="md-nav__link">
       Manuntenção do site
     </a>
   </li>
@@ -291,7 +352,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../deployment/server/" title="Servidor" class="md-nav__link">
+    <a href="../server/" title="Servidor" class="md-nav__link">
       Servidor
     </a>
   </li>
@@ -480,12 +541,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
     
     <label class="md-nav__link" for="nav-7">
       Desenvolvimento
@@ -505,7 +564,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
+    <a href="../../development/tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
       Ferramentas de desenvolvimento
     </a>
   </li>
@@ -517,7 +576,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../env/" title="Setup do dev env" class="md-nav__link">
+    <a href="../../development/env/" title="Setup do dev env" class="md-nav__link">
       Setup do dev env
     </a>
   </li>
@@ -527,20 +586,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Workflow de dev" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../development/dev/" title="Workflow de dev" class="md-nav__link">
       Workflow de dev
     </a>
-    
   </li>
 
         
@@ -550,7 +600,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../run-project-locally/" title="Executar o server em local" class="md-nav__link">
+    <a href="../../development/run-project-locally/" title="Executar o server em local" class="md-nav__link">
       Executar o server em local
     </a>
   </li>
@@ -562,7 +612,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
+    <a href="../../development/adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
       Como adicionar uma nova funcionalidade
     </a>
   </li>
@@ -574,7 +624,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../testing/" title="Testes" class="md-nav__link">
+    <a href="../../development/testing/" title="Testes" class="md-nav__link">
       Testes
     </a>
   </li>
@@ -726,6 +776,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lista-de-verificacao-de-implantacao-do-django" class="md-nav__link">
+    Lista de verificação de implantação do Django
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacao-de-producao" class="md-nav__link">
+    Verificação de produção
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implantacao-com-heroku" class="md-nav__link">
+    Implantação com heroku
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparando-uma-base-de-codigo-para-a-implantacao-do-heroku" class="md-nav__link">
+    Preparando uma base de código para a implantação do Heroku
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -736,7 +822,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/development/dev.md" title="Editar esta página" class="md-content__button md-icon">
+                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/deployment/deploy.md" title="Editar esta página" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -744,24 +830,64 @@
                   
                 
                 
-                <h1 id="branch-develop">Branch <code>develop</code><a class="headerlink" href="#branch-develop" title="Permanent link">&para;</a></h1>
-<p>No projeto Azure DevOps da aplicação, o branch em que o desenvolvimento será feito é a branch <strong>dev</strong>.</p>
-<p>Quando você quiser modificar o código da aplicação, você precisa :</p>
-<ul>
+                <h1 id="deploy">Deploy<a class="headerlink" href="#deploy" title="Permanent link">&para;</a></h1>
+<p>O deploy do site da <strong>Hollow</strong> e todas as atividades que tornam o serviço web disponível para uso.</p>
+<p>As fases da atividade de implantação são:</p>
+<ol>
 <li>
-<p>Criar uma branch <strong>nova</strong> (com um nome explícito, se possível, relacionado com as mudanças que serão feitas ali).</p>
+<p><code>Liberação</code>: Às vezes, isso envolve determinar os recursos necessários para que o sistema opere com desempenho e planejamento toleráveis ​​e / ou documentar atividades subsequentes no processo de implantação. Então, você tem que saber o tamanho dos aplicativos que serão definidos com o Heroku.</p>
 </li>
 <li>
-<p>Uma vez feitas as mudanças neste novo branch, o <code>commit</code> deve ser formado com um título explícito e uma breve descrição do trabalho realizado na branch.</p>
+<p><code>Instalação e ativação</code>: É feito com o Heroku. Fazemos o 'push' do branch <code>local/production</code> (que deve ser testado) como<code>heroku/master</code>.</p>
 </li>
 <li>
-<p>Depois é feito um pedido de <strong>pull request</strong></p>
+<p><code>Desativação</code>: A prática de remover do serviço sistemas usados ​​com pouca frequência ou obsoletos é frequentemente referida como aposentadoria ou solicitação de downgrade. Não há necessidade em nosso caso.</p>
 </li>
 <li>
-<p>Uma vez que todos os desenvolvedores tenham assegurado que não haja conflito entre o novo código e o código existente, podemos <strong>fundir</strong> a nova branch na branch <strong>dev</strong>.</p>
+<p><code>Desinstalação</code>: É a remoção de um sistema que não é mais necessário. Não precisamos disso em nosso caso.</p>
 </li>
-</ul>
-<p>***É fortemente recomendado não modificar diretamente a branch dev, caso contrário podem ser introduzidos erros no código, cuja origem não pode ser conhecida a priori.</p>
+<li>
+<p><code>Atualizar</code>: Normalmente consiste na desativação seguida pela instalação. É preciso um desenvolvedor para manter novas versões do Django e Python.</p>
+</li>
+<li>
+<p><code>Atualização integrada</code>: atualização do Windows ou equivalente. Isso não se aplica ao nosso caso.</p>
+</li>
+<li>
+<p><code>Monitoramento de versão</code>: Realizado em <code>requirements.txt</code>.</p>
+</li>
+</ol>
+<h2 id="lista-de-verificacao-de-implantacao-do-django">Lista de verificação de implantação do Django<a class="headerlink" href="#lista-de-verificacao-de-implantacao-do-django" title="Permanent link">&para;</a></h2>
+<p>Antes de implantar o aplicativo, você precisa saber se ele é adequado para uso na vida real com pessoas da <strong>Hollow</strong>.</p>
+<p>Para fazer isso, você deve executar o comando:</p>
+<div class="codehilite"><pre><span></span><code>python manage.py check --deploy
+</code></pre></div>
+
+
+<p>Este comando verificará a estabilidade do aplicativo. Corrigimos alguns problemas, mas se você adicionar outro recurso, terá que executar dita verificação.</p>
+<p>Para obter mais informações sobre a lista de verificação do Django (recomendamos a leitura):</p>
+<p><a href="https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/">Link para a lista de verificação para a implantação do Django </a></p>
+<h2 id="verificacao-de-producao">Verificação de produção<a class="headerlink" href="#verificacao-de-producao" title="Permanent link">&para;</a></h2>
+<p>A <code>verificação de produção</code> (<em>Production check</em>) é um recurso do Heroku para saber se sua aplicação está bem implementada.</p>
+<p>Os pontos a verificar são:</p>
+<ol>
+<li>Heroku-18 Stack</li>
+<li>Contêineres[^1] típicos (recomendamos Contêineres pagos, dado seu uso)</li>
+<li>Falhas na Redundância dos contêineres</li>
+<li>Falhas no Banco de dados de Postgres de produção</li>
+<li>Alta disponibilidade de Postgres</li>
+<li>Monitoramento do aplicativo em caso de falha</li>
+<li>Monitorar o registro de falhas</li>
+<li>Páginas de manutenção personalizadas</li>
+<li>Heroku SSL</li>
+</ol>
+<p>[^1]: No Heroku os contêineres são chamados de "Dynos" em inglês.</p>
+<p>Para o servidor de produção, é recomendável ter configurações bem gerenciadas.</p>
+<h2 id="implantacao-com-heroku">Implantação com heroku<a class="headerlink" href="#implantacao-com-heroku" title="Permanent link">&para;</a></h2>
+<p>Para obter mais informações sobre a implantação com Heroku, o link para a documentação é:</p>
+<p><a href="https://devcenter.heroku.com/categories/deployment">Deployment - Heroku</a></p>
+<h2 id="preparando-uma-base-de-codigo-para-a-implantacao-do-heroku">Preparando uma base de código para a implantação do Heroku<a class="headerlink" href="#preparando-uma-base-de-codigo-para-a-implantacao-do-heroku" title="Permanent link">&para;</a></h2>
+<p><a href="https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment">Preparando uma base de código[^2] para implantação Heroku</a></p>
+<p>[^2]: Base de código: <em>codebase</em> em inglês.</p>
                 
               
               
@@ -780,7 +906,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../env/" title="Setup do dev env" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../about/contributing/" title="Contribuir" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -789,19 +915,19 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Setup do dev env
+                Contribuir
               </div>
             </div>
           </a>
         
         
-          <a href="../run-project-locally/" title="Executar o server em local" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../maintenance/" title="Manuntenção do site" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Executar o server em local
+                Manuntenção do site
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

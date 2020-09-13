@@ -15,7 +15,7 @@
     
     
       
-        <title>Workflow de dev - Documentação hollow</title>
+        <title>O framework - Documentação hollow</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#branch-develop" class="md-skip">
+        <a href="#principio-django" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -85,7 +85,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Workflow de dev
+              O framework
             
           </span>
         </div>
@@ -430,10 +430,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       Django
@@ -451,11 +453,45 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../django/django/" title="O framework" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        O framework
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="O framework" class="md-nav__link md-nav__link--active">
       O framework
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principio-django" class="md-nav__link">
+    Princípio Django
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -465,7 +501,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../django/python/" title="Python" class="md-nav__link">
+    <a href="../python/" title="Python" class="md-nav__link">
       Python
     </a>
   </li>
@@ -480,12 +516,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
     
     <label class="md-nav__link" for="nav-7">
       Desenvolvimento
@@ -505,7 +539,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
+    <a href="../../development/tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
       Ferramentas de desenvolvimento
     </a>
   </li>
@@ -517,7 +551,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../env/" title="Setup do dev env" class="md-nav__link">
+    <a href="../../development/env/" title="Setup do dev env" class="md-nav__link">
       Setup do dev env
     </a>
   </li>
@@ -527,20 +561,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Workflow de dev" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../development/dev/" title="Workflow de dev" class="md-nav__link">
       Workflow de dev
     </a>
-    
   </li>
 
         
@@ -550,7 +575,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../run-project-locally/" title="Executar o server em local" class="md-nav__link">
+    <a href="../../development/run-project-locally/" title="Executar o server em local" class="md-nav__link">
       Executar o server em local
     </a>
   </li>
@@ -562,7 +587,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
+    <a href="../../development/adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
       Como adicionar uma nova funcionalidade
     </a>
   </li>
@@ -574,7 +599,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../testing/" title="Testes" class="md-nav__link">
+    <a href="../../development/testing/" title="Testes" class="md-nav__link">
       Testes
     </a>
   </li>
@@ -723,8 +748,21 @@
 <nav class="md-nav md-nav--secondary" aria-label="Índice">
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principio-django" class="md-nav__link">
+    Princípio Django
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -736,7 +774,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/development/dev.md" title="Editar esta página" class="md-content__button md-icon">
+                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/django/django.md" title="Editar esta página" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -744,24 +782,35 @@
                   
                 
                 
-                <h1 id="branch-develop">Branch <code>develop</code><a class="headerlink" href="#branch-develop" title="Permanent link">&para;</a></h1>
-<p>No projeto Azure DevOps da aplicação, o branch em que o desenvolvimento será feito é a branch <strong>dev</strong>.</p>
-<p>Quando você quiser modificar o código da aplicação, você precisa :</p>
+                  <h1>O framework</h1>
+                
+                <h3 id="principio-django">Princípio Django<a class="headerlink" href="#principio-django" title="Permanent link">&para;</a></h3>
+<p>Django é uma estrutura baseada no princípio MVC ou MTV, composta de três partes distintas:</p>
+<ol>
+<li>Uma linguagem flexível de modelos que permite gerar HTML, XML ou qualquer outro formato de texto ;</li>
+<li>Um controlador fornecido sob a forma de um URL "remapping" baseado em expressões regulares ;</li>
+<li>Uma API de acesso aos dados é gerada automaticamente pela estrutura compatível com CRUD. Não há necessidade de escrever consultas SQL associadas aos formulários, elas são geradas automaticamente pelo ORM.</li>
+</ol>
+<p>Além da API de acesso aos dados, uma interface de administração funcional é gerada a partir do modelo de dados. Um sistema de validação dos dados inseridos pelo usuário também está disponível e permite que mensagens de erro automáticas sejam exibidas.</p>
+<p>Também estão incluídos :</p>
 <ul>
 <li>
-<p>Criar uma branch <strong>nova</strong> (com um nome explícito, se possível, relacionado com as mudanças que serão feitas ali).</p>
+<p>um servidor web leve que permite desenvolver e testar suas aplicações em tempo real, sem necessidade de implantação ;</p>
 </li>
 <li>
-<p>Uma vez feitas as mudanças neste novo branch, o <code>commit</code> deve ser formado com um título explícito e uma breve descrição do trabalho realizado na branch.</p>
+<p>um elaborado sistema de processamento de formulários com widgets para interagir entre HTML e um banco de dados. São oferecidas inúmeras possibilidades de controle e processamento;</p>
 </li>
 <li>
-<p>Depois é feito um pedido de <strong>pull request</strong></p>
+<p>uma estrutura de caching web que pode utilizar diferentes métodos (MemCached, sistema de arquivo, banco de dados, personalizado);</p>
 </li>
 <li>
-<p>Uma vez que todos os desenvolvedores tenham assegurado que não haja conflito entre o novo código e o código existente, podemos <strong>fundir</strong> a nova branch na branch <strong>dev</strong>.</p>
+<p>suporte para classes intermediárias (middleware) que podem ser colocadas em vários estágios de processamento de consultas para integrar tratamentos particulares (caching, internacionalização, acesso...);</p>
+</li>
+<li>
+<p>suporte completo Unicode.</p>
 </li>
 </ul>
-<p>***É fortemente recomendado não modificar diretamente a branch dev, caso contrário podem ser introduzidos erros no código, cuja origem não pode ser conhecida a priori.</p>
+<p>Para mais informações, consulte <a href="https://docs.djangoproject.com/en/3.0/">a documentação Django</a></p>
                 
               
               
@@ -780,7 +829,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../env/" title="Setup do dev env" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../database/queries/" title="SQL" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -789,19 +838,19 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Setup do dev env
+                SQL
               </div>
             </div>
           </a>
         
         
-          <a href="../run-project-locally/" title="Executar o server em local" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../python/" title="Python" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Executar o server em local
+                Python
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

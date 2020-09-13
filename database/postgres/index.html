@@ -15,7 +15,7 @@
     
     
       
-        <title>Workflow de dev - Documentação hollow</title>
+        <title>PostgreSQL - Documentação hollow</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#branch-develop" class="md-skip">
+        <a href="#postgresql" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -85,7 +85,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Workflow de dev
+              PostgreSQL
             
           </span>
         </div>
@@ -368,10 +368,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
     <label class="md-nav__link" for="nav-5">
       Banco de dados
@@ -391,7 +393,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../database/database/" title="BDD" class="md-nav__link">
+    <a href="../database/" title="BDD" class="md-nav__link">
       BDD
     </a>
   </li>
@@ -401,11 +403,20 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../database/postgres/" title="PostgreSQL" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="./" title="PostgreSQL" class="md-nav__link md-nav__link--active">
       PostgreSQL
     </a>
+    
   </li>
 
         
@@ -415,7 +426,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../database/queries/" title="SQL" class="md-nav__link">
+    <a href="../queries/" title="SQL" class="md-nav__link">
       SQL
     </a>
   </li>
@@ -480,12 +491,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
     
     <label class="md-nav__link" for="nav-7">
       Desenvolvimento
@@ -505,7 +514,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
+    <a href="../../development/tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
       Ferramentas de desenvolvimento
     </a>
   </li>
@@ -517,7 +526,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../env/" title="Setup do dev env" class="md-nav__link">
+    <a href="../../development/env/" title="Setup do dev env" class="md-nav__link">
       Setup do dev env
     </a>
   </li>
@@ -527,20 +536,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Workflow de dev" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../development/dev/" title="Workflow de dev" class="md-nav__link">
       Workflow de dev
     </a>
-    
   </li>
 
         
@@ -550,7 +550,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../run-project-locally/" title="Executar o server em local" class="md-nav__link">
+    <a href="../../development/run-project-locally/" title="Executar o server em local" class="md-nav__link">
       Executar o server em local
     </a>
   </li>
@@ -562,7 +562,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
+    <a href="../../development/adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
       Como adicionar uma nova funcionalidade
     </a>
   </li>
@@ -574,7 +574,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../testing/" title="Testes" class="md-nav__link">
+    <a href="../../development/testing/" title="Testes" class="md-nav__link">
       Testes
     </a>
   </li>
@@ -736,7 +736,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/development/dev.md" title="Editar esta página" class="md-content__button md-icon">
+                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/database/postgres.md" title="Editar esta página" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -744,24 +744,38 @@
                   
                 
                 
-                <h1 id="branch-develop">Branch <code>develop</code><a class="headerlink" href="#branch-develop" title="Permanent link">&para;</a></h1>
-<p>No projeto Azure DevOps da aplicação, o branch em que o desenvolvimento será feito é a branch <strong>dev</strong>.</p>
-<p>Quando você quiser modificar o código da aplicação, você precisa :</p>
-<ul>
-<li>
-<p>Criar uma branch <strong>nova</strong> (com um nome explícito, se possível, relacionado com as mudanças que serão feitas ali).</p>
-</li>
-<li>
-<p>Uma vez feitas as mudanças neste novo branch, o <code>commit</code> deve ser formado com um título explícito e uma breve descrição do trabalho realizado na branch.</p>
-</li>
-<li>
-<p>Depois é feito um pedido de <strong>pull request</strong></p>
-</li>
-<li>
-<p>Uma vez que todos os desenvolvedores tenham assegurado que não haja conflito entre o novo código e o código existente, podemos <strong>fundir</strong> a nova branch na branch <strong>dev</strong>.</p>
-</li>
-</ul>
-<p>***É fortemente recomendado não modificar diretamente a branch dev, caso contrário podem ser introduzidos erros no código, cuja origem não pode ser conhecida a priori.</p>
+                <h1 id="postgresql">PostgreSQL<a class="headerlink" href="#postgresql" title="Permanent link">&para;</a></h1>
+<p>PostgreSQL™ é um sistema de gestão de bases de dados relacionais orientadas para objectos (ORDBMS) baseado no POSTGRES, Versão 4.2™. Foi desenvolvido na Universidade da Califórnia, no Departamento de Informática de Berkeley. POSTGRES é a origem de muitos conceitos que só serão disponibilizados em sistemas de gestão de bases de dados comerciais muito mais tarde.</p>
+<p>PostgreSQL™ é um descendente livre do código original de Berkeley. Suporta grande parte da norma SQL, ao mesmo tempo que oferece muitas características modernas:</p>
+<p>consultas complexas;</p>
+<p>chaves estrangeiras;</p>
+<p>gatilhos;</p>
+<p>vistas editáveis;</p>
+<p>integridade transaccional;</p>
+<p>Controlo de Concorrência MultiVersion (MVCC).</p>
+<p>Além disso, PostgreSQL™ pode ser alargado pelo utilizador de múltiplas formas, por exemplo, acrescentando :</p>
+<p>novos tipos de dados;</p>
+<p>novas funções;</p>
+<p>novos operadores;</p>
+<p>novas funções de agregação;</p>
+<p>novos métodos de indexação;</p>
+<p>novas línguas processuais.</p>
+<p>E graças à sua licença liberal, PostgreSQL™ pode ser utilizado, modificado e distribuído livremente para qualquer fim, seja privado, comercial ou académico.</p>
+<h1 id="instalacao">Instalação<a class="headerlink" href="#instalacao" title="Permanent link">&para;</a></h1>
+<p>Para instalar, basta ir a <a href="https://www.postgresql.org/download/">o link para download</a> e escolher a versão correcta
+para o seu sistema operativo. Tenha cuidado com a instalação porque por vezes o instalador pode pedir para instalar outras coisas.</p>
+<h2 id="executando-o-servidor-como-localhost-127001">Executando o servidor como localhost (127.0.0.1)<a class="headerlink" href="#executando-o-servidor-como-localhost-127001" title="Permanent link">&para;</a></h2>
+<p>Uma vez instalado, pode ir divertir-se com o postgreSQL. Basta utilizar o <code>pgAdmin 4</code>. Na verdade, não é necessário 
+procure no seu sistema por um programa chamado "Postgres". Pode utilizar a interface gráfica ``pgAdmin```, 
+ou utilizar directamente na "linha de comando" com "psql".</p>
+<h2 id="tutorial-postgresql">Tutorial PostgreSQL<a class="headerlink" href="#tutorial-postgresql" title="Permanent link">&para;</a></h2>
+<p>Se quiser aprender a utilizar o software e achar que é uma boa ideia ter os seus conhecimentos. 
+Aviso: é especialmente importante que o administrador do sítio tenha bons conhecimentos para gerir a base de dados.</p>
+<p><a href="https://docs.postgresql.fr/10/tutorial.html">Tutorial postgres</a></p>
+<h2 id="para-mais-informacoes-ver-a-documentacao">Para mais informações, ver a documentação<a class="headerlink" href="#para-mais-informacoes-ver-a-documentacao" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.postgresql.org/docs/">Documentação (Inglês)</a></p>
+<p><a href="https://docs.postgresql.fr/">Documentação actual (francês)</a></p>
+<p><a href="https://docs.postgresql.fr/10">PostgreSQL 10 Documentação (francês)</a></p>
                 
               
               
@@ -780,7 +794,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../env/" title="Setup do dev env" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../database/" title="BDD" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -789,19 +803,19 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Setup do dev env
+                BDD
               </div>
             </div>
           </a>
         
         
-          <a href="../run-project-locally/" title="Executar o server em local" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../queries/" title="SQL" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Executar o server em local
+                SQL
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">

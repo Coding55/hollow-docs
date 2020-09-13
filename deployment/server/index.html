@@ -15,7 +15,7 @@
     
     
       
-        <title>Workflow de dev - Documentação hollow</title>
+        <title>Servidor - Documentação hollow</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#branch-develop" class="md-skip">
+        <a href="#servidor" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -85,7 +85,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Workflow de dev
+              Servidor
             
           </span>
         </div>
@@ -244,10 +244,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Deploy e produção
@@ -267,7 +269,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../deployment/deploy/" title="Como dar deploy no site" class="md-nav__link">
+    <a href="../deploy/" title="Como dar deploy no site" class="md-nav__link">
       Como dar deploy no site
     </a>
   </li>
@@ -279,7 +281,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../deployment/maintenance/" title="Manuntenção do site" class="md-nav__link">
+    <a href="../maintenance/" title="Manuntenção do site" class="md-nav__link">
       Manuntenção do site
     </a>
   </li>
@@ -289,11 +291,63 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../deployment/server/" title="Servidor" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Servidor
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Servidor" class="md-nav__link md-nav__link--active">
       Servidor
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ver-os-arquivos-de-log" class="md-nav__link">
+    Ver os arquivos de log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escala-de-aplicacao" class="md-nav__link">
+    Escala de aplicação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inicie-um-console" class="md-nav__link">
+    Inicie um console
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -480,12 +534,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
     
     <label class="md-nav__link" for="nav-7">
       Desenvolvimento
@@ -505,7 +557,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
+    <a href="../../development/tools/" title="Ferramentas de desenvolvimento" class="md-nav__link">
       Ferramentas de desenvolvimento
     </a>
   </li>
@@ -517,7 +569,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../env/" title="Setup do dev env" class="md-nav__link">
+    <a href="../../development/env/" title="Setup do dev env" class="md-nav__link">
       Setup do dev env
     </a>
   </li>
@@ -527,20 +579,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Workflow de dev" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../development/dev/" title="Workflow de dev" class="md-nav__link">
       Workflow de dev
     </a>
-    
   </li>
 
         
@@ -550,7 +593,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../run-project-locally/" title="Executar o server em local" class="md-nav__link">
+    <a href="../../development/run-project-locally/" title="Executar o server em local" class="md-nav__link">
       Executar o server em local
     </a>
   </li>
@@ -562,7 +605,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
+    <a href="../../development/adding-feature/" title="Como adicionar uma nova funcionalidade" class="md-nav__link">
       Como adicionar uma nova funcionalidade
     </a>
   </li>
@@ -574,7 +617,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../testing/" title="Testes" class="md-nav__link">
+    <a href="../../development/testing/" title="Testes" class="md-nav__link">
       Testes
     </a>
   </li>
@@ -726,6 +769,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ver-os-arquivos-de-log" class="md-nav__link">
+    Ver os arquivos de log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escala-de-aplicacao" class="md-nav__link">
+    Escala de aplicação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inicie-um-console" class="md-nav__link">
+    Inicie um console
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -736,7 +808,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/development/dev.md" title="Editar esta página" class="md-content__button md-icon">
+                  <a href="https://github.com/coding55/hollow-docs/edit/master/docs/deployment/server.md" title="Editar esta página" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -744,24 +816,62 @@
                   
                 
                 
-                <h1 id="branch-develop">Branch <code>develop</code><a class="headerlink" href="#branch-develop" title="Permanent link">&para;</a></h1>
-<p>No projeto Azure DevOps da aplicação, o branch em que o desenvolvimento será feito é a branch <strong>dev</strong>.</p>
-<p>Quando você quiser modificar o código da aplicação, você precisa :</p>
-<ul>
-<li>
-<p>Criar uma branch <strong>nova</strong> (com um nome explícito, se possível, relacionado com as mudanças que serão feitas ali).</p>
-</li>
-<li>
-<p>Uma vez feitas as mudanças neste novo branch, o <code>commit</code> deve ser formado com um título explícito e uma breve descrição do trabalho realizado na branch.</p>
-</li>
-<li>
-<p>Depois é feito um pedido de <strong>pull request</strong></p>
-</li>
-<li>
-<p>Uma vez que todos os desenvolvedores tenham assegurado que não haja conflito entre o novo código e o código existente, podemos <strong>fundir</strong> a nova branch na branch <strong>dev</strong>.</p>
-</li>
-</ul>
-<p>***É fortemente recomendado não modificar diretamente a branch dev, caso contrário podem ser introduzidos erros no código, cuja origem não pode ser conhecida a priori.</p>
+                <h1 id="servidor">Servidor<a class="headerlink" href="#servidor" title="Permanent link">&para;</a></h1>
+<p>Para gerenciar o servidor, é recomendado que o responsável assista ao <a href="https://devcenter.heroku.com/articles/getting-started-with-python">tutorial de uso do python com heroku</a>, ele contem muitos conceitos importantes para gerenciar o aplicativo.</p>
+<h2 id="ver-os-arquivos-de-log">Ver os arquivos de log<a class="headerlink" href="#ver-os-arquivos-de-log" title="Permanent link">&para;</a></h2>
+<p>O Heroku trata os logs (arquivos de log) como fluxos de eventos ordenados por tempo agregados a partir dos fluxos de saída de todos os aplicativos e os componentes do Heroku, fornecendo um único canal para todos os eventos.</p>
+<p>Veja informações sobre o seu aplicativo em execução usando um dos comandos <code>heroku logs --tail</code></p>
+<h2 id="escala-de-aplicacao">Escala de aplicação<a class="headerlink" href="#escala-de-aplicacao" title="Permanent link">&para;</a></h2>
+<p>Você pode verificar quantos contêineres[^1] estão em execução usando o comando <code>ps</code>:
+[^1]: No Heroku os contêineres são chamados de "Dynos" em inglês.</p>
+<div class="codehilite"><pre><span></span><code>$ heroku ps
+Free dyno hours quota remaining this month: 999h 6m <span class="o">(</span><span class="m">99</span>%<span class="o">)</span>
+Free dyno usage <span class="k">for</span> this app: 0h 0m <span class="o">(</span><span class="m">0</span>%<span class="o">)</span>
+For more information on dyno sleeping and how to upgrade, see:
+https://devcenter.heroku.com/articles/dyno-sleeping
+
+<span class="o">===</span> web <span class="o">(</span>Free<span class="o">)</span>: gunicorn gettingstarted.wsgi <span class="o">(</span><span class="m">1</span><span class="o">)</span>
+web.1: up <span class="m">2018</span>/10/12 <span class="m">14</span>:26:45 -0500 <span class="o">(</span>~ 33s ago<span class="o">)</span>
+</code></pre></div>
+
+
+<p>Por padrão, seu aplicativo é implantado em um contêiner gratuito. Os mesmos serão desativados após meia hora de inatividade (se não estiverem recebendo tráfego). Isso causa um atraso de alguns segundos para a primeira solicitação de ativação. As solicitações subsequentes funcionarão normalmente. Os contêineres grátis também consomem de uma cota mensal gratuita do contêiner - desde que a cota não seja usada, todos os aplicativos gratuitos podem continuar a funcionar.</p>
+<p>Para evitar a desativação do contêiner, você pode mudar para um profissional ou tipo de contêiner conforme descrito no artigo <a href="https://devcenter.heroku.com/articles/dyno-types">Tipos de contêiner</a>. Por exemplo, se você está migrando seu aplicativo para um contêiner profissional, pode escalá-lo facilmente executando um comando que diz ao Heroku para executar um número específico de contêineres, cada um executando seu tipo de processo da web.</p>
+<p>O dimensionamento de um aplicativo no Heroku é equivalente a alterar o número de contêineres em execução.</p>
+<p>Escala do número de contêineres da web até zero:</p>
+<div class="codehilite"><pre><span></span><code>heroku ps:scale <span class="nv">web</span><span class="o">=</span><span class="m">0</span>
+</code></pre></div>
+
+
+<p>Escale novamente:</p>
+<div class="codehilite"><pre><span></span><code>heroku ps:scale <span class="nv">web</span><span class="o">=</span><span class="m">1</span>
+</code></pre></div>
+
+
+<h2 id="inicie-um-console">Inicie um console<a class="headerlink" href="#inicie-um-console" title="Permanent link">&para;</a></h2>
+<p>Você pode executar qualquer comando, geralmente scripts e aplicativos que fazem parte do seu aplicativo, em um único contêiner usando o comando <code>heroku run</code>. Ele também pode ser usado para iniciar um processo REPL anexado ao seu terminal local para experimentar em seu ambiente de aplicativo:</p>
+<div class="codehilite"><pre><span></span><code>$ heroku run python manage.py shell
+Python <span class="m">3</span>.7.6 <span class="o">(</span>default, Dec <span class="m">23</span> <span class="m">2019</span>, <span class="m">04</span>:25:22<span class="o">)</span>
+<span class="o">[</span>GCC <span class="m">7</span>.4.0<span class="o">]</span> on linux
+Type <span class="s2">&quot;help&quot;</span>, <span class="s2">&quot;copyright&quot;</span>, <span class="s2">&quot;credits&quot;</span> or <span class="s2">&quot;license&quot;</span> <span class="k">for</span> more information.
+<span class="o">(</span>InteractiveConsole<span class="o">)</span>
+&gt;&gt;&gt;
+</code></pre></div>
+
+
+<p>Se você receber um erro de <code>Erro ao conectar ao processo</code>, pode ser necessário configurar seu firewall.</p>
+<p>O shell Python está sendo executado no contexto de seu aplicativo e todas as suas dependências. De lá, você pode importar alguns dos arquivos do seu aplicativo.</p>
+<p>Para ter uma ideia real de como o contêiner funciona, você pode criar outro contêiner exclusivo e executar o comando, que abre um shell naquele contêiner. Você pode então executar comandos lá. Cada contêiner tem seu próprio espaço de arquivo efêmero, preenchido por seu aplicativo e suas dependências. Nesse caso, assim que o comando for concluído, o contêiner será excluído.</p>
+<div class="codehilite"><pre><span></span><code>$ heroku run bash
+Running <span class="sb">`</span>bash<span class="sb">`</span> attached to terminal... up, run.3052
+~ $ ls 
+gettingstarted  hello  manage.py  Procfile  README.md  requirements.txt  runtime.txt  staticfiles
+~ $ <span class="nb">exit</span>
+<span class="nb">exit</span>
+</code></pre></div>
+
+
+<p>Não se esqueça de digitar 'exit' para sair do shell e encerrar o contêiner.</p>
                 
               
               
@@ -780,7 +890,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../env/" title="Setup do dev env" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../maintenance/" title="Manuntenção do site" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -789,19 +899,19 @@
                 <span class="md-footer-nav__direction">
                   Anterior
                 </span>
-                Setup do dev env
+                Manuntenção do site
               </div>
             </div>
           </a>
         
         
-          <a href="../run-project-locally/" title="Executar o server em local" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../admin/admin/" title="Para o admin" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Próximo
                 </span>
-                Executar o server em local
+                Para o admin
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
