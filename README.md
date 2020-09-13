@@ -24,7 +24,7 @@
  
 1. Clone the repo
 ```sh
-git clone git@github.com:CodeAndCoffee55/hollow-docs.git
+git clone git@github.com:Coding55/hollow-docs.git
 ```
 2. Follow the instruction in mkdocs.md
 ```sh

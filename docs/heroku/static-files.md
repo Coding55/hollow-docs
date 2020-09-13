@@ -13,6 +13,6 @@ Para mais informações:
 
 [Amazon S3](https://aws.amazon.com/s3/)
 
-[Prix - Amazon S3](https://aws.amazon.com/s3/pricing/)
+[Preço - Amazon S3](https://aws.amazon.com/s3/pricing/)
 
 [Amazon AWS](https://aws.amazon.com/)
