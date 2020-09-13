@@ -1,5 +1,5 @@
-# Implantação
-A implantação do site da **Hollow** e todas as atividades que tornam o serviço web disponível para uso.
+# Deploy
+O deploy do site da **Hollow** e todas as atividades que tornam o serviço web disponível para uso.
 
 As fases da atividade de implantação são:
 

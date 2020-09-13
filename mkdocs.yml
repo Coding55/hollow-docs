@@ -1,4 +1,4 @@
-site_name: Hollow's documentation
+site_name: Documentação hollow
 
 nav:
   - Home page: index.md
@@ -45,6 +45,8 @@ theme:
   font:
     text: Ubuntu
     code: Ubuntu Mono
+  logo: 'img/favicon-hollow.png'
+  favicon: 'img/favicon-hollow.png'
 
 repo_name: coding55/hollow-docs
 repo_url: https://github.com/coding55/hollow-docs
@@ -54,7 +56,7 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/coding55
     - icon: fontawesome/solid/users
-      link: http://www.coding55.com/
+      link: https://www.hollow.pt/
 
 markdown_extensions:
   - admonition
